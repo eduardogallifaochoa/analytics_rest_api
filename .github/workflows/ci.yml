@@ -2,9 +2,9 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "dev" ]   # CI runs on push to main and dev
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "dev" ]   # CI runs on PR to main and dev
 
 jobs:
   build:
@@ -32,7 +32,7 @@ jobs:
       # Run tests and generate coverage report
       - name: Run tests with coverage
         run: |
-          pytest --cov=app --cov-report=xml --cov-report=term-missing
+          python -m pytest tests/ --cov=app --cov-report=xml --cov-report=term-missing
 
       # Upload coverage report as an artifact in GitHub Actions
       - name: Upload test results
