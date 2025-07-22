@@ -29,3 +29,5 @@ Every push to main triggers GitHub Actions:
 ## Screenshots
 ![Running server](./assets/runningserver.png)
 ![Tests Passed](./assets/pytest.png)
+
+# Testing CI
