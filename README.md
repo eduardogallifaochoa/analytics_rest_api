@@ -33,3 +33,7 @@ Every push to main triggers GitHub Actions:
 ![Tests Passed](./assets/pytest.png)
 ### CI Pipeline
 ![CI Passed](./assets/ci_passed.png)
+### CI Pipeline on Pull Request
+![CI Passed](./assets/pipeline.png)
+
+![CI Passed](./assets/allcheckshavepassed.png)
