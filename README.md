@@ -1,6 +1,6 @@
 # Analytics REST API
 
-This is a **FastAPI-based REST API** project with automated testing, and CI via GitHub Actions.
+This is a simple **FastAPI-based REST API** with automated testing and CI via GitHub Actions.
 
 ## **Features**
 - Endpoint `/hello` returns a greeting message.
@@ -26,10 +26,14 @@ Every push to main triggers GitHub Actions:
 
 - Reports results in the Actions tab.
 ---
-## Screenshots
-Running Server:
+# Screenshots
+### Running Server
 ![Running server](./assets/runningserver.png)
-Tests passed:
+### Tests Passed
 ![Tests Passed](./assets/pytest.png)
+### CI Pipeline
+![CI Passed](./assets/ci_passed.png)
+### CI Pipeline on Pull Request
+![CI Passed](./assets/pipeline.png)
 
-# Testing CI
+![CI Passed](./assets/allcheckshavepassed.png)
