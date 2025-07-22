@@ -31,3 +31,5 @@ Running Server:
 ![Running server](./assets/runningserver.png)
 Tests passed:
 ![Tests Passed](./assets/pytest.png)
+
+# Testing CI
