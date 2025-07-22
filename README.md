@@ -27,7 +27,9 @@ Every push to main triggers GitHub Actions:
 - Reports results in the Actions tab.
 ---
 ## Screenshots
+Running Server:
 ![Running server](./assets/runningserver.png)
+Tests passed:
 ![Tests Passed](./assets/pytest.png)
 
 # Testing CI
